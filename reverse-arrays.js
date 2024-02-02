@@ -1,20 +1,21 @@
 function reverseArray(arr) {
-  // Add code.
+  let reverse=[];
+   for(let i = arr.length -1; i >=0; i--){
+    reverse.push(arr[i]);
+   }
+   return reverse;
+
 }
 
 function reverseArrayInPlace(arr) {
-  // Add code.
+
+
+
+
 }
-
-
-
-
-
-
-// tests 
-console.log(reverseArray(["A", "B", "C"]));
-// → ["C", "B", "A"];
 let arrayValue = [1, 2, 3, 4, 5];
-reverseArrayInPlace(arrayValue);
+arrayValue = reverseArrayInPlace(arrayValue);
 console.log(arrayValue);
-// → [5, 4, 3, 2, 1]
+console.log(reverseArray(['A','B','C']))
+
+for(let i = arr.length /2; i >=0; i--)
